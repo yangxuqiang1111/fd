@@ -1,0 +1,71 @@
+/**
+ * css 重置
+ */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+body, textarea, input, select, button {
+    font: 14px/1.5 "Microsoft YaHei", "Helvetica Neue", "Hiragino Sans GB", "Segoe UI", Tahoma, Arial, STHeiti, sans-serif;
+    color: #2a2b2c;
+}
+
+div,p,h1,h2,h3,textarea {
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+ol,ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+em, i {
+	font-style: normal;
+}
+
+img {
+	border: 0;
+}
+
+textarea {
+	resize: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+}
+
+button,input,select,textarea {
+	outline: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.clearfix:before,.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+	overflow: hidden;
+}
+
+/* 目前（2015.10.07）兼容至IE8 */
+/* .clearfix {
+	zoom:1; IE < 8
+} */

@@ -1,0 +1,254 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f8f8f8;
+}
+
+.resume-page {
+	width: 1080px;
+	margin: 20px auto 0;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.slidebar {
+	margin-left: 20px;
+	width: 300px;
+	float: left;
+	background-color: #ac92ec;
+	color: #fff;
+	font-size: 17px;
+	padding-bottom: 10000px;
+	margin-bottom: -10000px;
+}
+
+.header {
+	text-align: center;
+	padding: 40px 20px 50px;
+}
+
+.header img {
+	width: 200px;
+	height: 260px;
+	display: block;
+	margin: 0 auto;
+	padding: 4px;
+	background-color: #f3effc;
+	box-shadow: 2px 2px 4px #9874f2;
+	border-radius: 2px;
+	cursor: pointer;
+	-webkit-transition: all .3s ease-out;
+  	   -moz-transition: all .3s ease-out;
+  		-ms-transition: all .3s ease-out;
+  		 -o-transition: all .3s ease-out;
+  			transition: all .3s ease-out;
+}
+
+.header img:hover {
+	-webkit-transform: scale(1.04);
+       -moz-transform: scale(1.04);
+        -ms-transform: scale(1.04);
+         -o-transform: scale(1.04);
+            transform: scale(1.04);
+}
+
+.header h1 {
+	font-size: 35px;
+	margin-top: 15px;
+	line-height: 65px;
+}
+
+.item {
+	line-height: 2.5;
+	margin-bottom: 50px;
+}
+
+.item-inner {
+	padding-left: 32px;
+}
+
+.skills label {
+	width: 85px;
+	text-align: right;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.ratio {
+	display: inline-block;
+	width: 125px;
+	height: 13px;
+	border-radius: 10px;
+	background-color: #9874f2;
+}
+
+.ratio span {
+	background-color: #ffce54;
+	height: 13px;
+	border-radius: 10px;
+	display: block;
+}
+
+.item h3 {
+	font-size: 22px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #9874f2;
+	position: relative;
+	width: 340px;
+	left: -20px;
+	margin-bottom: 40px;
+	border-top-right-radius: 3px;
+	text-align: center;
+}
+
+.item h3:after {
+	content: "";
+	width: 0;
+    height: 0;
+    border-top: 13px solid #9874f2;
+    border-right: 20px solid transparent;
+	position: absolute;
+	right: 0;
+	top: 40px;
+}
+
+.main-info {
+	width: 760px;
+	float: left;
+	padding-bottom: 10000px;
+	margin-bottom: -10000px;
+}
+
+.main-item {
+	width: 640px;
+	margin: 65px 60px 105px;
+	border-left: 2px solid #ac92ec;
+	border-top: 2px solid #ac92ec;
+	position: relative;
+	padding: 30px 0 0 30px;
+	font-size: 15px;
+	line-height: 1.7;
+	margin-top: 65px;
+}
+
+.main-item h2 {
+	display: inline-block;
+	background-color: #fff;
+	padding: 0 10px;
+	line-height: 32px;
+	position: absolute;
+	top: -17px;
+	left: 255px;
+	font-size: 22px;
+	color: #ac92ec;
+}
+
+.main-item article img {
+	width: 170px;
+	height: 170px;
+	margin-top: 10px;
+}
+
+.main-item article a:hover {
+	text-decoration: underline;
+}
+
+.icon {
+	width: 40px;
+	height: 40px;
+	border: 2px solid #ac92ec;
+	border-radius: 50%;
+	display: block;
+	text-align: center;
+	line-height: 38px;
+	position: absolute;
+	left: -20px;
+	top: -20px;
+	background-color: #fff;
+	font-size: 22px;
+  	color: #ac92ec;
+  	cursor: pointer;
+  	-webkit-transition: all .3s ease-out;
+  	   -moz-transition: all .3s ease-out;
+  		-ms-transition: all .3s ease-out;
+  		 -o-transition: all .3s ease-out;
+  			transition: all .3s ease-out;
+}
+
+.icon:hover {
+	-webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
+
+.icon1 {
+	color: #ffce54;
+	margin-right: 5px;
+}
+
+.main-item h4 {
+	font-weight: bold;
+	position: relative;
+	line-height: 40px;
+	font-size: 16px;
+}
+
+.main-item h4 span {
+	font-weight: normal;
+	padding-left: 40px;
+}
+
+.main-item article {
+	margin-bottom: 20px;
+}
+
+.icon-circle {
+	border: 2px solid #ac92ec;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	display: block;
+	position: absolute;
+	left: -38px;
+	top: 11px;
+	background-color: #fff;
+}
+
+.self-info {
+	background-color: #f3effc;
+	padding: 40px 0 5px;
+}
+
+.self-info .main-item h2 {
+	background-color: #f3effc;
+}
+
+footer {
+	text-align: center;
+	height: 50px;
+  	line-height: 50px;
+}
+
+.btn-box {
+	position: fixed;
+	right: 0;
+	top: 10%;
+}
+
+.btn-box ul li {
+	width: 100px;
+	height: 40px;
+	background-color: #ac92ec;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 15px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	line-height: 41px;
+	box-shadow: 1px 2px 3px #9874f2;
+}
